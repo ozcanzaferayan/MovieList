@@ -1,0 +1,31 @@
+.featured-tv-shows {
+  display: flex;
+  overflow: auto;
+  position: relative;
+}
+.featured-tv-shows .movie-card {
+  flex-shrink: 0;
+  width: 300px;
+  height: 450px;
+  padding: 0px 16px;
+}
+/* 
+.movie-card .poster {
+  position: absolute;
+  height: inherit;
+}
+
+.movie-card .description {
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  padding: 16px;
+}
+
+.movie-card .name {
+  color: #fff;
+  font-size: 24px;
+} */

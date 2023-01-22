@@ -1,0 +1,33 @@
+.nav-side {
+  background-color: #1d1d1d88;
+  display: inline-block;
+  position: fixed;
+  height: 100%;
+  padding: 16px 0px;
+  z-index: 1;
+}
+
+.nav-side ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.nav-top {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  z-index: 1;
+}
+
+.nav-top ul {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-top img {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+}

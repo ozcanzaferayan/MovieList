@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 24px 32px;
+  gap: 8px;
+}
+
+footer .copyright {
+  color: #fff;
+}
+
+footer .url {
+  color: var(--primary-teal);
+}

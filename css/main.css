@@ -1,0 +1,10 @@
+.container {
+  padding-left: 56px;
+}
+
+.label {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 16px 32px;
+}

@@ -1,0 +1,33 @@
+.new-releases {
+  display: flex;
+  gap: 5px;
+  overflow: auto;
+  position: relative;
+  padding: 0px 16px;
+}
+
+.movie-card {
+  flex-shrink: 0;
+  width: 200px;
+  height: 300px;
+}
+
+.movie-card .poster {
+  position: absolute;
+  height: inherit;
+}
+
+.movie-card .description {
+  bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  padding: 16px;
+}
+
+.movie-card .name {
+  color: #fff;
+  font-size: 24px;
+}

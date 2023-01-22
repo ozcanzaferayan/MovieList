@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/splide/css/splide.min.css" />
+    <link rel="stylesheet" href="./css/splide-override.css" />
+    <link rel="stylesheet" href="./css/colors.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
+    <link rel="stylesheet" href="./css/featured.css" />
+    <link rel="stylesheet" href="./css/new-releases.css" />
+    <link rel="stylesheet" href="./css/featured-tv-shows.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <nav class="nav-side">
+      <ul>
+        <li>
+          <a href="#"><img src="./icon/logo.svg" alt="Logo" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./icon/home.svg" alt="Home" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./icon/movie.svg" alt="Movie" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./icon/tv.svg" alt="Tv" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./icon/star.svg" alt="Star" /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="nav-top">
+      <ul>
+        <li>
+          <a href="#"><img src="./icon/account.svg" alt="Account" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./icon/settings.svg" alt="Settings" /></a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="splide" aria-labelledby="carousel-heading">
+      <div class="splide__track">
+        <ul class="splide__list" id="splide_list"></ul>
+      </div>
+    </section>
+
+    <div class="container">
+      <a class="label" href="#">
+        <span>New relases</span>
+        <img src="./icon/chevron-right.svg" alt="Right" />
+      </a>
+      <ul class="new-releases" id="newReleases"></ul>
+      <a class="label" href="#">
+        <span>Featured TV shows</span>
+        <img src="./icon/chevron-right.svg" alt="Right" />
+      </a>
+      <ul class="featured-tv-shows" id="featuredTvShows"></ul>
+    </div>
+
+    <footer>
+      <span class="copyright">Designed by Martin Brady 2021</span>
+      <a href="martinbrady.com" class="url">martinbrady.com</a>
+    </footer>
+
+    <script src="./lib/splide/js/splide.min.js"></script>
+    <script src="./js/api/movieApi.js"></script>
+    <script src="./js/commonRenderers.js"></script>
+    <script src="./js/newReleases.js"></script>
+    <script src="./js/tvShows.js"></script>
+    <script src="./js/featuredMovies.js"></script>
+  </body>
+</html>
