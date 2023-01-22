@@ -8,8 +8,7 @@ const renderTvShows = (shows) => {
   const html = shows
     .map(
       (show) => `
-    <li class="movie-card">
-        <img class="poster" src="${show.poster}" alt="${show.title}">
+    <li class="movie-card" style="background-image:url(${show.poster})">
         <div class="description" >
             ${renderGenres(show)}
             ${renderRating(show)}

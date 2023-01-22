@@ -5,27 +5,7 @@
 }
 .featured-tv-shows .movie-card {
   flex-shrink: 0;
-  width: 300px;
+  width: 302px;
   height: 450px;
-  padding: 0px 16px;
+  padding: 0px 8px;
 }
-/* 
-.movie-card .poster {
-  position: absolute;
-  height: inherit;
-}
-
-.movie-card .description {
-  bottom: 0;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-end;
-  position: absolute;
-  padding: 16px;
-}
-
-.movie-card .name {
-  color: #fff;
-  font-size: 24px;
-} */

@@ -10,6 +10,11 @@
   flex-shrink: 0;
   width: 200px;
   height: 300px;
+  box-shadow: inset 0px 0px 100px 50px #1d1d1d88;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .movie-card .poster {

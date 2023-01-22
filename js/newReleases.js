@@ -8,8 +8,7 @@ const renderNewReleases = (releases) => {
   const html = releases
     .map(
       (release) => `
-    <li class="movie-card">
-        <img class="poster" src="${release.poster}" alt="${release.title}">
+    <li class="movie-card" style="background-image:url(${release.poster})">
         <div class="description" >
             ${renderGenres(release)}
             ${renderRating(release)}
