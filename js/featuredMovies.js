@@ -1,4 +1,8 @@
-getFeaturedMovies().then((movies) => renderFeaturedMovies(movies));
+getFeaturedMovies()
+  .then((movies) => renderFeaturedMovies(movies))
+  .catch((e) => {
+    renderFeaturedMovies(mockMovies);
+  });
 
 const renderFeaturedMovies = (movies) => {
   const html = movies

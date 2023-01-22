@@ -1,4 +1,8 @@
-getNewReleases().then((releases) => renderNewReleases(releases));
+getNewReleases()
+  .then((releases) => renderNewReleases(releases))
+  .catch((e) => {
+    renderNewReleases(mockReleases);
+  });
 
 const renderNewReleases = (releases) => {
   const html = releases

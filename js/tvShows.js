@@ -1,4 +1,8 @@
-getTvShows().then((shows) => renderTvShows(shows));
+getTvShows()
+  .then((shows) => renderTvShows(shows))
+  .catch((e) => {
+    renderTvShows(mockTvShows);
+  });
 
 const renderTvShows = (shows) => {
   const html = shows
