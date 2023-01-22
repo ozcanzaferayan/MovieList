@@ -1,4 +1,6 @@
 # Pure HTML/CSS/JS MovieList Website
+
+![Screenshot](screenshots/ss.png)
 ## Instructions
 Run these commands in two terminals:
 ```bash
